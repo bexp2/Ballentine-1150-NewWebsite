@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(209, 224, 215);
+  font-family: "Arial", sans-serif;
+}
+nav {
+  background-color: rgb(19, 41, 75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+}
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+#brand {
+  float: left;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+}
+.nav-link:hover {
+  color: rgb(0, 163, 224);
+  font-wight: bold;
+}
+#brand .nav-link {
+  color: white;
+  font-size: 14pt;
+}
+#brand .nav-link:hover {
+  color: rgb(0, 163, 224);
+}
+h1 {
+  font-size: 30pt;
+  font-family: "Arial", sans-serif;
+  margin-top: 2px;
+}
+h2 {
+  font-size: 20pt;
+  font-family: "Arial", sans-serif;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+h3 {
+  font-size: 15pt;
+  font-family: "Arial", sans-serif;
+  margin-top: 1px;
+  font-weight: normal;
+}
+p {
+  font-size: 12pt;
+  font-family: "Arial", sans-serif;
+  margin-top: 0px;
+}
+/* #home {
+  margin-top: 50px;
+  position: relative;
+  left: -8px;
+  width: 150vh;
+  height: 30vh;
+  padding-top: 3em;
+  background: center 75% no-repeat fixed;
+  background-size: cover;
+} */
+.main {
+}
+#primary_content {
+  display: flex;
+}
+#pcontent {
+  margin-top: 45px;
+  margin-left: 10px;
+}
+.resume {
+  margin-top: 60px;
+  margin-left: 10px;
+}
+.pro-exp {
+}
+#education {
+  font-size: 15pt;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+#certifications {
+  margin-top: 25px;
+  font-size: 13pt;
+  font-family: "Arial", sans-serif;
+}
+#picture img {
+  width: 350px;
+  margin-top: 50px;
+}
